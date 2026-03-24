@@ -8,8 +8,7 @@
       font-family: 'Times New Roman', Times, serif; /* Roman font */
       overflow: hidden;
       text-align: center;
-      background: url('https://i.pinimg.com/736x/b6/8c/d2/b68cd2c21df95e1f2d445c0d2f997e8b.jpg') no-repeat center center fixed;
-      background-size: cover;
+      background-color: #ffd1dc; /* light pink background */
       color: #fff;
     }
 
@@ -87,7 +86,7 @@
 
 <div id="birthday">
   <h1>Happy Birthday Samra</h1>
-  <p>May Allah keep you happy and bless you with a long, peaceful life. Happy Birthday, Sister!</p> 
+  <p>May Allah keep you happy and bless you with a long, peaceful life. Happy Birthday, dear sister!</p>
 
   <audio autoplay loop>
     <source src="https://www.bensound.com/bensound-music/bensound-buddy.mp3" type="audio/mpeg">
@@ -100,11 +99,11 @@ function showBirthday() {
   document.getElementById('birthday').style.display = 'block';
 }
 
-// Attractive pink & white flowers (same method as pehle)
+// Flowers images – **upload these three PNGs to your repo** and use local paths
 const flowerImages = [
-  "https://i.ibb.co/qC9dQYf/pink-flower.png",
-  "https://i.ibb.co/7JcDgHf/white-flower.png",
-  "https://i.ibb.co/8mZ7V1M/pink2-flower.png"
+  "pink-flower.png",
+  "white-flower.png",
+  "pink2-flower.png"
 ];
 
 for(let i=0; i<50; i++){
